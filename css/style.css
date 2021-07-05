@@ -123,3 +123,13 @@ body{
 }
 
 /*--experience area end--*/
+.footer{
+    color: white;
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10%;
+}
+.f-n{
+    color: red;
+}
