@@ -14,7 +14,7 @@ body{
 /*-- banner Left side start--*/
 .half-width{
     width: 50%;
-    height: 650px;
+    height: 600px;
 }
 .left{
     margin: auto 70px auto 90px;
@@ -54,3 +54,18 @@ body{
 }
 
 /*-- banner end--*/
+
+/*--Dream big start--*/
+.dream-big{
+    width: 100%;
+    display: flex;
+    background-image: url(../shapes/dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.left img{
+    width: 100%;
+}
+ 
+/*--dream big end--*/
