@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../imgs/top-banner.png);
+    background-repeat: no-repeat;
+}
+/*-- banner start--*/
+.banner{
+    width: 100%;
+    display: flex;
+}
+
+/*-- banner Left side start--*/
+.half-width{
+    width: 50%;
+    height: 650px;
+}
+.left{
+    margin: auto 70px auto 90px;
+}
+.heading{
+    margin: 60px auto auto auto;
+
+}
+
+.name{
+    color: #FB6857;
+}
+
+.half-width h1{
+    font-size: 35pt;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FE8B6D, #FB6857);
+}
+
+.button a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+/*-- banner left side end--*/
+
+.right{
+    margin: 30px 90px auto auto;
+}
+.right img{
+    width: 100%;
+}
+
+/*-- banner end--*/
