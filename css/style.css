@@ -14,13 +14,12 @@ body{
 /*-- banner Left side start--*/
 .half-width{
     width: 50%;
-    height: 600px;
 }
 .left{
-    margin: auto 70px auto 90px;
+    margin: auto 5% auto 15%;
 }
 .heading{
-    margin: 60px auto auto auto;
+    margin: 10% auto auto auto;
 
 }
 
@@ -47,10 +46,11 @@ body{
 /*-- banner left side end--*/
 
 .right{
-    margin: 30px 90px auto auto;
+    margin: auto 15% auto 5%;
 }
 .right img{
     width: 100%;
+    margin-top: 6%;
 }
 
 /*-- banner end--*/
@@ -58,6 +58,7 @@ body{
 /*--Dream big start--*/
 .dream-big{
     width: 100%;
+    margin-top: 6%;
     display: flex;
     background-image: url(../shapes/dream.png);
     background-repeat: no-repeat;
@@ -69,3 +70,56 @@ body{
 }
  
 /*--dream big end--*/
+
+/*--experience area start--*/
+
+.experience-area{
+    margin-top: 6%;
+}
+
+.experience-area>h1{
+    font-size: 30pt;
+    margin-left: 5%;
+}
+
+.ex-box{
+    display: flex;
+    background-image: url(../shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-box h3{
+    color: #F9755E;
+}
+
+.l-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    border-radius: 0% 4% 4% 0%;
+    border-left: 5px solid;
+    border-image: linear-gradient(#FFA07A, #FF6448);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px black;
+}
+.r-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 4%;
+    border-radius: 0% 4% 4% 0%;
+    border-left: 5px solid;
+    border-image: linear-gradient(#0003FF, #01FBFF);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px black;
+}
+.l-box h1{
+    font-size: 20pt;
+}
+
+.r-box h1{
+    font-size: 20pt;
+}
+
+/*--experience area end--*/
